@@ -1,0 +1,65 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.body {
+    background-image: url(../PicsForHtml/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.title {
+    color: #000000;
+    font-family: "Tektur", sans-serif;
+    font-size: 104px;
+    font-weight: 600;
+  }
+
+.map {
+    color: #000000;
+    font-family: "Tektur", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+  }
+
+.type {
+    color: #000000;
+    font-family: "Tektur", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+.text {
+    color: #000000;
+    font-family: "Tektur", sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+
+.links {
+    margin-top: 100px;
+    font-family: "Tektur", sans-serif;
+    font-size: 74px;
+    font-weight: 500;
+}
+
+.links a {
+    color: #1c1eb4;
+    text-decoration: none;
+}
+
+.image img {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image p {
+  color: #000000;
+    font-family: "Tektur", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
