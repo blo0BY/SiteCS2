@@ -13,7 +13,7 @@
 .title {
     color: #000000;
     font-family: "Tektur", sans-serif;
-    font-size: 104px;
+    font-size: 94px;
     font-weight: 600;
   }
 
@@ -40,7 +40,7 @@
 
 
 .links {
-    margin-top: 100px;
+    margin-top: 65px;
     font-family: "Tektur", sans-serif;
     font-size: 74px;
     font-weight: 500;
@@ -62,4 +62,22 @@
     font-family: "Tektur", sans-serif;
     font-size: 30px;
     font-weight: 400;
+}
+
+.map-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 5px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+map area {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+map area:hover {
+  opacity: 0.7;
+  filter: drop-shadow(0 0 5px #1c1eb4);
 }
