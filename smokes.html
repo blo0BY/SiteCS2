@@ -8,33 +8,30 @@
 </head>
 
 <body class="body">
+    <header>
+        <a href="./index.html" class="title"> ОСНОВНЫЕ ГРАНАТЫ</a>
+        <br>
+        <a href="./mirage.html" class="map"> MIRAGE</a>
+        <br>
+        <a href="./smokes.html" class="type"> ДЫМЫ</a>
+    </header>
 
+    <div class="map-container">
+        <img src="./PicsForHtml\Mirage\map.jpg" alt="Карта Mirage" usemap="#grenademap">
+        <map name="grenademap">
 
-<header>
+            <area shape="circle" 
+                  coords="248,279,18" 
+                  href="./smoke_window.html" 
+                  alt="Окно"
+                  title="Окно">
 
-    <a href="./index.html" class="title"> ОСНОВНЫЕ ГРАНАТЫ</a>
-    <h1 class="map"> MIRAGE</h1>
-    <a href="./smokes.html" class="type"> ДЫМЫ</a>
-
-</header>
-
-
-<a href="./smoke_window.html">
-<div class="image">
-
-    <img src="./PicsForHtml/smokes/window/last.png" alt="Дым окно">
-    <p>Дым окно</p>
-
-</div></a>
-
-<a href="./smoke_ct.html">
-<div class="image">
-
-    <img src="./PicsForHtml/smokes/ct/last.png" alt="Дым КТ">
-    <p>Дым КТ</p>
-
-</div></a>
-
-
+            <area shape="circle" 
+                  coords="290,558,18" 
+                  href="./smoke_ct.html" 
+                  alt="КТ"
+                  title="КТ">
+        </map>
+    </div>
 </body>
 </html>
