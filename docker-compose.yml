@@ -6,14 +6,14 @@ services:
       POSTGRES_PASSWORD: 3Zx8CvB2Nm
       POSTGRES_DB: blo0by
     ports:
-      - "5432:5432" 
+      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
   app:
     build: ./backend
     ports:
-      - "8056:8056" 
+      - "8056:8056"
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/blo0by
       SPRING_DATASOURCE_USERNAME: blo0by
@@ -21,7 +21,7 @@ services:
     depends_on:
       - db
 
-  frontend:  
+  frontend:
     build:
       context: .
       dockerfile: Dockerfile.nginx
