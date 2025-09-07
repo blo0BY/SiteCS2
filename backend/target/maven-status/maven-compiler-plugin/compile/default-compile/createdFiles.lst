@@ -1,0 +1,4 @@
+com\grenadesblo0by\feedback\FeedbackApplication.class
+com\grenade\feedback\FeedbackRepository.class
+com\grenade\feedback\Feedback.class
+com\grenade\feedback\FeedbackController.class
